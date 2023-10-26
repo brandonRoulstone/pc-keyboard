@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* applies cursor to all buttons */
+button{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+}
+
+.key-numbers-nums-add{
+    width: 38.2px;
+    height: 30px;
+    transform: translateY(6px);
+}
+
+.key-numbers{
+    width: 35px;
+}
+
+.key-numbers-nums{
+    width: 38.2px;
+}
+
+.key-numbers-nums-7, .key-numbers-nums-8, .key-numbers-nums-9{
+    width: 38px;
+}
+
+.key-numbers-backspace{
+    height: 30px;
+    transform: translateY(7px);
+}
+.letters{
+    margin-top: 3px;
+}
+
+.key-numbers-nums-enter{
+    width: 53px;
+    text-align: end;
+}
+.key-numbers-nums-side-enter{
+    transform: translateY(10px);
+}
+.key-numbers-nums-shift{
+    text-align: start;
+    width: 70px;
+}
+
+.key-numbers-nums-greater,.key-numbers-nums-less{
+    width: 50px;
+}
+
+.key-numbers-nums-shift-shift{
+    width: 83px;
+    text-align: end;
+}
+
+.key-numbers-nums-1,.key-numbers-nums-2, .key-numbers-nums-3{
+    width: 38px;
+}
+
+.key-numbers-nums-spacebar{
+    width: 300px;
+}
